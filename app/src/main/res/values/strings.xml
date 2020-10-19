@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">UniFavores</string>
+
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="your_email">Tu correo</string>
+    <string name="enter_your_name">Escribe tu nombre</string>
+    <string name="confirm_password">Confirma contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="log_in_instead">Ya tengo una cuenta</string>
+    <string name="login">Ingresar</string>
+    <string name="new_user_register_now">¿Nuevo aquí? Regístrate</string>
+    <string name="add_favor">Agregar favor</string>
+    <string name="llena_los_siguientes_campos">Llena los siguientes campos:</string>
+    <string name="un_titulo_para_tu_favor">Un título para tu favor</string>
+    <string name="descripcion">Descripción</string>
+    <string name="pedir_favor">Pedir favor</string>
+    <string name="favor_pedido_por">Favor pedido por:</string>
+    <string name="realizar_favor">realizar favor</string>
+    <string name="type_a_message">Mensaje…</string>
+    <string name="send_message_button">Send message button</string>
+    <string name="unifavores">UniFavores</string>
+    <string name="lugar_de_entrega">Lugar de entrega</string>
+    <string name="titulo">Título</string>
+    <string name="no_favors_yet">No hay favores para realizar aún, vuelve más tarde ;)</string>
+    <string name="no_favor_selected">No has selecionado ningún favor para realizar aún :(</string>
+    <string name="favors_to_complete">Favores que te comprometiste a realizar. Selecciona uno para ver más opciones:</string>
+    <string name="change_picture">Cambiar foto</string>
+    <string name="score_label">Puntaje:</string>
+    <string name="sign_out_label">Cerrar sesión</string>
+    <string name="best_users">Usuarios con mayor espíritu solidario:</string>
+    <string name="inicio">Inicio</string>
+    <string name="perfil">Perfil</string>
+    <string name="favores_sin_completar">Favores sin completar</string>
+    <string name="estadisticas">Estadísticas</string>
+    <string name="current_chats">Chats activos</string>
+    <string name="default_email">armandoestanquito@mail.com</string>
+    <string name="default_name">Armado Esteban Quito</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mis_favores">Mis favores</string>
+    <string name="no_favor_yet">No has pedido ningún favor aún :)</string>
+    <string name="estado">ESTADO:</string>
+    <string name="no_messages_yet">No hay mensajes aún, saluda!</string>
+    <string name="chats_with_volunteers_label">Aquí aparecerán chats con las personas que te están haciendo, o les estás haciendo algún favor</string>
+    <string name="ask_for_a_favor">Ask for a favor</string>
+</resources>

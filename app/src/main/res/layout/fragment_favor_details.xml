@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="favorDetails"
+            type="com.cagudeloa.unifavores.ui.details.FavorDetailsViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.details.FavorDetailsFragment">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="112dp"
+            android:background="#E6DEF4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/favorCreatorText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="16dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/circleImageView"
+            app:layout_constraintTop_toBottomOf="@+id/labelCreator" />
+
+        <TextView
+            android:id="@+id/labelCreator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14sp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/favor_pedido_por"
+            android:textColor="#000"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/favorCreatorText"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/circleImageView"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/titleFavor"
+            style="@style/second_details_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:text="Necesito unas copias al 5k" />
+
+        <TextView
+            android:id="@+id/descriptionFavor"
+            style="@style/second_details_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7"
+            tools:text="Estoy a punto de empezar un parcial, el profe es un maldito y no deja que uno salga a sacar las copias, por fi ayudenmeeeee, Edge 1 páginas 56-59. De verdad muchas gracias" />
+
+        <Button
+            android:id="@+id/doFavorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/realizar_favor"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/locationFavor"
+            style="@style/second_details_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            tools:text="Para entregar en el 5k" />
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/main_details_item"
+            android:text="@string/titulo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/main_details_item"
+            android:text="@string/descripcion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleFavor" />
+
+        <TextView
+            android:id="@+id/textView8"
+            style="@style/main_details_item"
+            android:text="@string/lugar_de_entrega"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionFavor" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
